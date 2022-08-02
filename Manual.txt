@@ -1,0 +1,64 @@
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ 			TSUNAMI (LA BOLA LOCA)
+
+  Copyright (c) 1999 JAIL GAMER ENTERTAINMENT, All rights reserved
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   1. Tecles
+   2. Regles	
+   3. Taules propies
+      A. Creant
+      B. Jugant	
+ 
+ ---------------------------------------------------------------------
+
+  1. Tecles
+  ===========
+
+     Seleccionar mode de joc:
+        W	: amunt
+	S	: avall
+	Enter	: comneçar
+	Esc	: Eixir de joc (sols despres d'haver començat una partida)
+	
+     Jugador 1	          Jugador 2
+	W		 fletxa amunt	 	: amunt
+	S		 fletxa avall	 	: avall
+	A		 fletxa dreta	 	: enrrere
+	D		 flecha esquerra 	: avant
+          
+  2. Regles 
+  ===========
+      1. Enviar la pilota a la porteria del rival.
+      2. No exir del area.
+      3. No retindre la pilota a la teua area
+  
+  3. Taules propies
+  ===================  
+    =A. Creant=
+    
+      La taula te el seguent format:
+        * Arxiu, format PCX amb 256 colors i 320x200 pixels
+        * Un borde de taula de tres pixel
+	* Dos proteries de tres pixels d'ample situades sobre el borde en:
+             	-(0,72)
+		-(317,72)
+    	* Dos arees de 68x195 pixels situades en:
+		-(3,2)
+		-(250,2)
+	* A mes a mes pots possar qualevol dibuix que et semble.
+    
+    =B. Jugant=
+       
+      Per jugar en la propia taula, quan vajes a jugar has de possar:
+       
+       bola [nom de la taula]
+
+      Exemple:
+	Tenim una taula que es diu "Espai.pcx" per jugar possare:
+        
+         bola espai.pcx
+
+    Nota: Quan carregem una taula propia sols podrem jugar en eixa taula.      	
